@@ -3,22 +3,24 @@ body{
 	background: -webkit-gradient(linear, left top, left bottom, from(#00CCFF), to(white), color-stop(0.75, #eee));
 }
 
-.hp-section{
-	background-color: white;
-	margin-right: 25px;
-	margin-top: 250px;
-	height:220px;
-	border-radius: 10px;
+.hp-section :hover{
+	opacity: 0.5;
+    filter: alpha(opacity=40);
 }
+
+.hp-header{
+	display:inline;
+	font-family: 'Raleway', serif;
+	margin-top: 50px;
+}
+
+.hp-image{
+	display:inline;
+}
+
 
 #headerrow{
-	max-height:45px;
-	background-color: #CFE4F9;
-	border-bottom: 1px solid #5f99cf;
-}
-
-.redditimage{
-	height:40px;
+	margin-top: 70px;
 }
 
 #topbar{
