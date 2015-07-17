@@ -1,0 +1,71 @@
+body{
+	height: 400px;    
+	background: -webkit-gradient(linear, left top, left bottom, from(#00CCFF), to(white), color-stop(0.75, #eee));
+}
+
+.hp-section{
+	background-color: white;
+	margin-right: 25px;
+	margin-top: 250px;
+	height:220px;
+	border-radius: 10px;
+}
+
+#headerrow{
+	max-height:45px;
+	background-color: #CFE4F9;
+	border-bottom: 1px solid #5f99cf;
+}
+
+.redditimage{
+	height:40px;
+}
+
+#topbar{
+	background-color: #F0F0F0;
+	border-bottom: 1px solid #5f99cf;
+	height:21px;
+
+}
+
+#menu{
+  position: fixed;
+  margin-top: 20px;
+  background-color: #CFE4F9;
+}
+
+.flat-list{
+	display: inline-block;
+	background-color: #F0F0F0;
+	height: 20px;
+}
+
+#postbutton{
+	font-size: .8em;
+	border-radius: 100px;
+	padding:.5rem .5rem .5rem .5rem;
+	margin-top: 10px;
+}
+
+.categories .flat-list li{
+	display: inline;
+	font-size: 14px;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+}
+
+.flat-list li{
+	display: inline;
+	font-size: 14px;
+}
+
+.categories{
+	display: inline;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+}
+
+#my-subreddits{
+	display: inline;
+	font-size: 14px;
+	margin-left: 15px;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+}
